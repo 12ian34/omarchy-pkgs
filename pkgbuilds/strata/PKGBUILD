@@ -1,5 +1,5 @@
 pkgname=strata
-pkgver=0.10.0
+pkgver=0.11.1
 pkgrel=1
 pkgdesc='Fast, keyboard-first file manager for modern Linux desktops'
 arch=('x86_64' 'aarch64')
@@ -38,7 +38,7 @@ conflicts=('strata-git')
 options=('!debug' '!lto')
 
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('01ea2676a0c59fac5daa0962ed6e721861bafd478b19cf5d9afaab6823175fe8')
+sha256sums=('37b6114ac18080306bead0ba04872cee7712e93824e46d40ff04ab8a21f4f24b')
 
 prepare() {
   cd "$pkgname-$pkgver"
